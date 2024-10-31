@@ -46,19 +46,21 @@ a {
 }
 
 
-.GRT img{
-width: 210px;
-display: block;
-border-radius: 5px;
-position: relative;
-left:60px;
+.GRT img {
+    width: 210px;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+    left: 60px;
 }
 
 
-.RFT, .CGT, .GRT {
+.RFT,
+.CGT,
+.GRT {
     width: 30%;
     margin: 10px;
-    padding: 50px   ;
+    padding: 50px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-sizing: border-box;
