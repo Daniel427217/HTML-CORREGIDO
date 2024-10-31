@@ -1,52 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro de Factura</title>
+    <link rel="stylesheet" href="CG.css">
 </head>
+
 <body>
+    <header>
+        <h1>Sistema de Registro de Factura</h1>
+    </header>
     <div class="container">
-        <h1>Bienvenido a el área de Control de Gatos</h1>
-        <h2>Por favor diligencie el formulario con los datos solicitados </h2>
-    </div>
-    <div class="form">
-        <form action="" method="post" >
-    <div class="gasto">
-            <label for="Nombre Gasto">Nombre Gasto</label>
-            <input type="text" name="nombre-gasto" id="nombre-gasto">
-        </div>
-            <br>
-            <div class="fecha">
-            <label for="Fecha">Fecha</label>
-            <input type="date" name="fecha" id="fecha">
-        </div>
-        <div class="monto">
-            <br>
-            <label for="Monto">Monto</label>
-            <input type="number" name="dinero" id="dinero">
-        </div>
-            <br>
-            <div class="receptor">
-            <label for="Dirigido">Receptor</label>
-            <input type="text" name="receptor" id="receptor">
-        </div>
-        <div class="categoria">
-            <br>
-            <label for="Categoria">Categoría</label>
-            <select name="Categoria" id="categoria">
-                <option value="textil">Textiles</option>
-                <option value="Compra Activos">Compra Activos</option>
-                <option value="Inversion Banco">Inversion Banco</option>
-                <option value="Uso Personal">Uso Personal</option>
-            </select>
-        </div>
-            <br>
-            <div class="gaurdar">
-            <label for="Guardar" id="guardar"> </label>
-            <input type="submit" value="Guardar">
-        </div>
-        </form>
+        <nav class="barra_lateral">
+            <a href="interfaz.html" class="boton"> <button>Regresar</button> </a>
+
+         <a href="" class="boton">   <button >Revisar Control de Gastos</button> </a>
+
+            <a href="index.html" class="boton"><button>Cerrar Sesión</button> </a>
+
+            <img src="img/WhatsApp_Image_2024-10-17_at_4.48.58_PM-removebg-preview.png" alt="" class="imagen-debajo"
+                width="300">
+        </nav>
+        <main>
+            <p>Bienvenido a nuestra área de Registro de Control de Gastos, por favor diligencie el siguiente formulario para así
+                llevar con efectividad su registro de Control de Gastos</p>
+
+            <form class="formulario">
+                <label for="nombre">Nombre del Registro:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="monto">Monto del Gasto:</label>
+                <input type="number" id="monto" name="monto">
+
+                <label for="proveedor">Proveedor:</label>
+                <input type="text" id="proveedor" name="proveedor">
+
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa">
+
+                <button type="submit">Finalizar registro</button>
+
+            </form>
+        </main>
     </div>
 </body>
+
 </html>
