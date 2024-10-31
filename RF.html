@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Factura</title>
+    <link rel="stylesheet" href="RF.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sistema de Registro de Factura</h1>
+    </header>
+    <div class="container">
+        <nav class="barra_lateral">
+            <a href="interfaz.html" class="boton"> <button>Regresar</button> </a>
+
+         <a href="" class="boton">   <button >Revisar Factura</button> </a>
+
+            <a href="index.html" class="boton"><button>Cerrar Sesión</button> </a>
+
+            <img src="img/WhatsApp_Image_2024-10-17_at_4.48.58_PM-removebg-preview.png" alt="" class="imagen-debajo"
+                width="300">
+        </nav>
+        <main>
+            <p>Bienvenido a nuestra área de Registro de Factura, por favor diligencie el siguiente formulario para así
+                llevar con efectividad su registro de factura</p>
+
+            <form class="formulario">
+                <label for="nombre">Nombre del Registro:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="monto">Monto de la factura:</label>
+                <input type="number" id="monto" name="monto">
+
+                <label for="proveedor">Proveedor:</label>
+                <input type="text" id="proveedor" name="proveedor">
+
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa">
+
+                <button type="submit">Finalizar registro</button>
+
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
